@@ -1,0 +1,123 @@
+{
+  "intents": [
+
+    {
+      "tag": "initiate",
+      "patterns": [ "Start initiation" ],
+      "responses": [ "Initiation done" ],
+      "context": [ "" ]
+    },
+
+
+    {
+      "tag": "greeting",
+      "patterns": [ "Hi there", "Hey", "Hello" ],
+      "responses": [ "Hello", "Good to see you again", "Hi there, how can I help?" ],
+      "context": [ "" ]
+    },
+    
+    {
+      "tag": "feeling", 
+      "patterns": [ "How are you", "How is it going?", "How are you doing?"],
+      "responses": [ "I am incapable of feeling", "I am good, thanks for asking!" ],
+      "context": [ "" ]
+    },
+    
+     {
+      "tag": "jokes",
+      "patterns": [ "joke", "laugh", "tell me another"],
+      "responses": [ "Why don't koala bears hang out with other koala bears? Because they do not meet the koala-fications", "Never trust an atom, they make up everything",
+                      "What do you call a fake noodle? an impasta ", "How do you drown a hipster? throw him in the mainstream ",
+                      "Why don't calculus majors throw house parties? because you should never drink and derive "],
+      "context": [ "" ]
+    },
+    
+    {
+      "tag": "goodbye",
+      "patterns": [ "Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time" ],
+      "responses": [ "See you!", "Have a nice day", "Bye! Come back again soon." ],
+      "context": [ "" ]
+    },
+    
+    {
+      "tag": "thanks",
+      "patterns": [ "Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me" ],
+      "responses": [ "Any time!", "My pleasure" ],
+      "context": [ "" ]
+    },
+
+
+    {
+      "tag": "age",
+      "patterns": [ "How old are you?", "age" ],
+      "responses": [ "Age is just a number!" ],
+      "context": [ "" ]
+    },
+    
+
+    {
+      "tag": "actions",
+      "patterns": [ "What can you do?", "purpose" ],
+      "responses": ["I want to assist you with your medical needs" ],
+      "context": [ "" ]
+    },
+    
+
+     {
+      "tag": "name",
+      "patterns": [ "Who are you?" ],
+      "responses": [ "I am your pharmaceutical assistant" ],
+      "context": [ "" ]
+    },
+    
+
+    
+    
+     {
+      "tag": "allergy",
+      "patterns": [ "allergic reaction", "allergies", "allergy"],
+      "responses": [ "Antihistamine is your best solution!" ],
+      "context": [ "" ]
+    },    
+    
+    
+     {
+      "tag": "acid_Reflux",
+      "patterns": [ "acidity", "acidic reflux"],
+      "responses": [ "You should take Antacids and or Proton Pump Inhibitors also known as PPI's "],
+      "context": [ "" ]
+    },     
+    
+     {
+      "tag": "asthma",
+      "patterns": [ "asthma"],
+      "responses": [ "Use your inhaler and consult your doctor immediately if your case gets worse"],
+      "context": [ "" ]
+    },     
+    
+      {
+      "tag": "food_Poisoning",
+      "patterns": [ "food poisoning", "poison"],
+      "responses": [ "Rest and drink lots of fluid, if your case gets worse go to the Emergency room" ],
+      "context": [ "" ]
+    },   
+    
+    
+    {
+      "tag": "migraine",
+      "patterns": [ "severe headache", "migraine"],
+      "responses": [ "take pain killers and stay in a dark room without any sound, hopefully the pain will go away soon." ],
+      "context": [ "" ]
+    },   
+    
+    {
+      "tag": "common_Cold",
+      "patterns": [ "flu", "cold" , "feeling weak"],
+      "responses": [ "Take some Vitamin C and have a lot of rest. If you still don't feel better take some pain killers or paracetamol" ],
+      "context": [ "" ]
+    }
+    
+    
+  
+  ]
+}
